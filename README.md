@@ -1,4 +1,4 @@
-# MAGNet
+![logo](https://github.com/mpmorley/MAGNet/blob/master/MAGnet_logo_heart.png)
 
 MAGNet is a collaborative group of investigators who use genomic approaches to understand human myocardial disease. Current projects include human myocardial expression, quantitative trait mapping and systems genetics.
 
