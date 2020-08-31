@@ -11,6 +11,12 @@ The Myocardial Applied Genomics Network (MAGNet; www.med.upenn.edu/magnet), coll
 RNA sequencing libraries were prepared using the Illumina TruSeq stranded mRNA kit followed by the Nugen Ovation amplification kit. To avoid confounding by batch effects, libraries were randomly selected into pools of 32, and pools were sequenced on a Hiseq2500 to a depth of ~30 million 100-bp paired-end reads per biological sample. Fastq files were aligned against human reference (hg19/hGRC37) using the STAR aligner. (PMID: 23104886) Duplicate reads were removed using MarkDuplicates from Picard tools, and per gene read counts for Ensembl (v75) gene annotations were computed. Expression levels in counts per million (CPM) were normalized and transformed using VOOM in the LIMMA R package. Surrogate variables to account sources for latent variation such as batch were calculated using the svaseq function from the R SVA package. 
 
 
+The processed data ahs been saved as a Bioconductor ExpresionSet (eSet) and can be downloaded from [here](https://www.dropbox.com/s/797rft3a7iihhmc/MAGNET_eset.RDS?dl=0).
+Raw counts as a [RSubread](https://bioconductor.org/packages/release/bioc/html/Rsubread.html) Object can be downloaded [here](https://www.dropbox.com/s/4mnd1iassezsr5y/subread_counts_allgood.RDS?dl=0)
+
+
+
+
 
 
 # eQTL
