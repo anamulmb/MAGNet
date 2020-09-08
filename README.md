@@ -27,7 +27,7 @@ where Y is log2 transformed gene expression, race is either African Americans or
 
 ## eQTL
 
-Expression quantitative trait locus analysis was performed using the QTLtools package with adjustment for sex, race, and the first 3 genetic principal components and the 24 SVA-computed covariates.
+Expression quantitative trait locus analysis was performed using the [QTLtools](https://qtltools.github.io/qtltools/) package with adjustment for sex, race, and the first 3 genetic principal components and the 24 SVA-computed covariates.
 
 ```bash
 for j in $(seq 1 30); do
