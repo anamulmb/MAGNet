@@ -25,9 +25,12 @@ where Y is log2 transformed gene expression, race is either African Americans or
 * [Final eSet](https://www.dropbox.com/s/797rft3a7iihhmc/MAGNET_eset.RDS?dl=0)
 
 
-
-
-
-
-
 ## eQTL
+
+Expression quantitative trait locus analysis was performed using the QTLtools package with adjustment for sex, race, and the first 3 genetic principal components and the 24 SVA-computed covariates.
+
+```bash
+for j in $(seq 1 30); do
+QTLtools cis  --vcf final_maf10.vcf.bz --bed Phenotypes.bed.gz --out chunk_$j --cov $BASE/covars.txt --perm 1000 --chunk $j 30
+done
+```
