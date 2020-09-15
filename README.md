@@ -23,7 +23,6 @@ where Y is log2 transformed gene expression, race is either African Americans or
 * [Raw Counts](https://www.dropbox.com/s/4mnd1iassezsr5y/subread_counts_allgood.RDS?dl=0)
 * [SVA Corrected CPMS](https://www.dropbox.com/s/mpgbhujqezts998/CPMS_SVA_corrected.RDS?dl=0)
 * [Final eSet](https://www.dropbox.com/s/797rft3a7iihhmc/MAGNET_eset.RDS?dl=0)
-* [Sample information (phenodata file)] (https://www.dropbox.com/s/eihem5fbnkg7bpm/phenoData.csv?dl=0)
 
 
 ## eQTL
