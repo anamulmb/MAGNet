@@ -23,7 +23,7 @@ where Y is log2 transformed gene expression, race is either African Americans or
 * [Final eSet](https://www.dropbox.com/s/797rft3a7iihhmc/MAGNET_eset.RDS?dl=0)
 * [Sample information (phenodata file)](https://www.dropbox.com/s/eihem5fbnkg7bpm/phenoData.csv?dl=0)
 
-The data for project is avaible also at NCBI Geo under accession [GSE14190](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE141910)
+The data for project is avaible at NCBI Geo under accession [GSE14190](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE141910)
 
 ## eQTL
 
