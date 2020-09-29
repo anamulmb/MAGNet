@@ -16,8 +16,6 @@ Y = β0 + β1×race + β2×sex + β3×Age + β4-14×SVA1:SVA11
 where Y is log2 transformed gene expression, race is either African Americans or European Americans plus adjustments for sex,age and 11 surrogate variables
 
 
-
-
 ### Data Download
 
 * [Raw Counts](https://www.dropbox.com/s/i5dthgl5c5ij5gd/Counts.csv?dl=0)
@@ -25,6 +23,7 @@ where Y is log2 transformed gene expression, race is either African Americans or
 * [Final eSet](https://www.dropbox.com/s/797rft3a7iihhmc/MAGNET_eset.RDS?dl=0)
 * [Sample information (phenodata file)](https://www.dropbox.com/s/eihem5fbnkg7bpm/phenoData.csv?dl=0)
 
+The data for project is avaible also at NCBI Geo under accession[GSE14190](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE141910)
 
 ## eQTL
 
